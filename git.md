@@ -125,7 +125,7 @@ A git repo is uploaded to GitHub like a document is uploaded to Google Drive
 
 # Collaboration using Git
 
-Projects are not a linear progress
+Projects are not a linear process
 
 - working on multiple changes at once
     - multiple goals under construction
@@ -145,17 +145,17 @@ Projects are not a linear progress
 
 ---
 
-### Demo:
-## Branching in Git
-
----
-
 # Branches: under the hood
 
 - commits have unique hash values
 - each commit points to previous commit (*linked list*)
-- branch is pointer to a commit
 - one commit can have multiple others pointing to it
+- branch is pointer to a commit
+
+---
+
+### Demo:
+## Branching in Git
 
 ---
 
@@ -222,3 +222,23 @@ Periodically sync local copy with remote copy ("origin") for backup & collaborat
 ### Demo:
 ## Local Git
 
+---
+
+# Good practices
+
+- commit regularly when you reach any milestone, and push to remote repo
+- *gitignore* any files that shouldn't be tracked
+    - IDE configuration files
+    - compiled executables
+    - sensitive information (environment variables, etc)
+
+---
+
+# Resources
+
+- Tower cheatsheets available in [shared folder](https://drive.google.com/drive/folders/1yohnRNJlNf7aJU017hSO_cW593No3Rkk?usp=sharing)
+- Tower also provides [free book](https://www.git-tower.com/learn/git/ebook/)
+- open source Git [website](https://git-scm.com)
+    - [download](https://git-scm.com/downloads) Git or GUIs
+    - [free book](https://git-scm.com/book/en/) (more advanced than Tower's)
+- [dangit, git!?!](https://dangitgit.com) for when things go wrong
