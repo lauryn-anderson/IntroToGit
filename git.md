@@ -111,3 +111,72 @@ A git repo is uploaded to GitHub like a document is uploaded to Google Drive
     - open source projects
 - owned by Microsoft since 2018
 - friendlier than git but not an equivalent
+
+---
+
+## Practice: 
+# Using GitHub
+
+- make an account
+- make a repo
+- make a commit
+
+---
+
+# Collaboration using Git
+
+Projects are not a linear progress
+
+- working on multiple changes at once
+    - multiple goals under construction
+    - experiment with different ideas
+- multiple people working at once
+    - want to work freely without worrying about others
+
+---
+
+# What is a branch?
+
+- version of a repository which diverges from the main copy
+- each branch is associated with a chain of commits
+- branches form "tree"
+    - trunk is called *main* branch (good copy of repo)
+    - other branches merge back into trunk when ready
+
+---
+
+## Demo:
+# Branching in Git
+
+---
+
+# Branches: under the hood
+
+- each commit points to previous commit (*linked list*)
+- branch is pointer to a commit
+- one commit can have multiple others pointing to it
+
+---
+
+# Merging branches
+
+- Git will automate as much as possible
+- when *merge conflict* happens, need to resolve manually
+- merging into main is often formalized as a *pull request*
+    - "I want to merge this into main"
+
+---
+
+## Practice:
+# Using Branches
+
+- make a branch
+- make a commit
+- make a pull request
+
+---
+
+
+
+
+
