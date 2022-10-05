@@ -145,13 +145,14 @@ Projects are not a linear progress
 
 ---
 
-## Demo:
-# Branching in Git
+### Demo:
+## Branching in Git
 
 ---
 
 # Branches: under the hood
 
+- commits have unique hash values
 - each commit points to previous commit (*linked list*)
 - branch is pointer to a commit
 - one commit can have multiple others pointing to it
@@ -176,7 +177,48 @@ Projects are not a linear progress
 
 ---
 
+# Local Git
 
+You don't want to edit projects in GitHub, you want to use IDEs (Visual Studio Code, PyCharm, etc)
 
+Every person working on a project has a *local* copy of the repo, in addition to the shared *remote* copy (stored on GitHub, GitLabs, etc)
 
+Periodically sync local copy with remote copy ("origin") for backup & collaboration
+
+---
+
+# Local Git commands
+
+- *init* to create repo on local machine
+- *clone* to get remote repo on local machine
+- *fetch* to update knowledge of remote repo
+- *pull* to get new changes from remote repo
+- *push* to send new changes to remote repo
+
+---
+
+# Local Development
+
+- project is edited in *workspace* (IDE)
+    - *check out* branch to update workspace
+    - *HEAD* pointer marks checked out branch
+- when ready to commit, *stage* changes
+    - next commit contains changes in *staging area*
+    - *stash* changes that aren't ready to commit
+
+---
+
+# Local Git tools
+
+- command line git
+    - easy to install, hard to use
+- built-in to IDEs
+    - [Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/overview), [PyCharm](https://www.jetbrains.com/help/pycharm/version-control-integration.html), [IntelliJ](https://www.jetbrains.com/help/idea/version-control-integration.html), etc
+- third-party application
+    - [Git Desktop](https://desktop.github.com), [Tower](https://www.git-tower.com/students), etc
+
+---
+
+### Demo:
+## Local Git
 
