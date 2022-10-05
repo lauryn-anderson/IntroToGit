@@ -5,6 +5,14 @@ Slidenumbers: true
 
 ---
 
+# First, an intro to you all
+
+Answer a few questions on the slido 
+
+![inline 150%](QRcode.png)
+
+---
+
 # Today's presentation
 
 - will highlight patterns and basics of using git
